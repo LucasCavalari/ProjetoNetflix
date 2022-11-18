@@ -1,1 +1,4 @@
-##Teste, atividade do Lucas
+# Projeto Netflix
+## Acadêmicos:
+- Lucas Cavalari
+- Arthur Correia
