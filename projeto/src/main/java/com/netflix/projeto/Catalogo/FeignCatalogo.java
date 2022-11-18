@@ -13,7 +13,7 @@ public interface FeignCatalogo {
     //@GetMapping("/api/catalogo")
     //String testarCatalogo();
 
-    @GetMapping("/catalogo/usuario/{id}")
+    @GetMapping("/feign/catalogo/usuario/{id}")
     public CatalogoTo buscarPorGuidUsuario(@PathVariable("id") Integer guidUsuario);
 
 }

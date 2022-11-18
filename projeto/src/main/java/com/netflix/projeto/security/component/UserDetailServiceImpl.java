@@ -1,6 +1,6 @@
 package com.netflix.projeto.security.component;
 
-import org.slf4j.Logger;
+import  org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -36,8 +36,8 @@ public class UserDetailServiceImpl implements UserDetailsService {
 
         try {
 
-            UserDetails u = new CustomUser("cleverson",
-                    "$2a$12$LlxKRPHgE2I41V9o2hcN5ud.4dRUA67QCZhDUbh9C6GevJBoyoPo2",
+            UserDetails u = new CustomUser("admin",
+                    "$2a$12$k/6edFjyQYOABS6CFKM3UuzNsREvXhaBRhGPjB.BApKCffueHgYey",
                     true,
                     true,
                     true,

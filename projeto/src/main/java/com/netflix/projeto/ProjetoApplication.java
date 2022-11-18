@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-@EnableRabbit
+//@EnableRabbit
 public class ProjetoApplication {
 
 	public static void main(String[] args) {

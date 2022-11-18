@@ -1,9 +1,9 @@
-package src.test.java.com.netflix.register;
+package com.netflix.register;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.SpringBootTest;
-import src.main.java.com.netflix.register.RegisterApplication;
+import com.netflix.register.RegisterApplication;
 
 @SpringBootTest
 class RegisterApplicationTests {
