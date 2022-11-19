@@ -36,7 +36,7 @@ public class UsuarioService {
     }
 
     public Usuario buscarPorGuidUsuario(Integer guidUsuario) {
-        return usuarioRepository.findByGuidUsuario(guidUsuario);
+        return usuarioRepository.findById(guidUsuario).get();
     }
 
 }

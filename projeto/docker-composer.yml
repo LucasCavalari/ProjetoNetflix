@@ -1,0 +1,25 @@
+version: '2'
+services:
+  main-application:
+    container_name: main-application
+    build:
+      context: exemplo
+      dockerfile: ../projeto/Dockerfile
+    image: main-application:latest
+    ports:
+      - 18082:8082
+    networks:
+      - spring-cloud-network
+  register-application:
+    container_name: register-application
+    build:
+      context: register
+      dockerfile: ../register/Dockerfile
+    image: register-application:latest
+    ports:
+      - 18082:8082
+    networks:
+      - spring-cloud-network
+networks:
+  spring-cloud-network:
+    driver: bridge
