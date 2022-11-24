@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableRabbit
-public class UsuarioserviceApplication {
+public class usuarioserviceapplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UsuarioserviceApplication.class, args);
+		SpringApplication.run(usuarioserviceapplication.class, args);
 	}
 
 }
